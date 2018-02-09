@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component} from '@angular/core';
 import {HomeserviceService} from './homeservice.service';
 import {UtilityService} from './../services/utility.service';
 
@@ -7,7 +7,7 @@ import {UtilityService} from './../services/utility.service';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent  {
  homeServic: string;
  grtDay:string;
  utilserv:any;
