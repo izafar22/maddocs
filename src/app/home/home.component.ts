@@ -18,7 +18,7 @@ export class HomeComponent  {
   console.log(this.homeServic);
  
    this.grtDay = (function(){
-    return "The great day"; 
+    return "The great day and th travel"; 
   })();
   this.utilserv=this.utilityService.getData() + this.grtDay;
 }
